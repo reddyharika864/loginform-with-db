@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+body{
+   background-color: beige;
+   font-size: 110%;
+}
+
+button{
+    background-color: greenyellow;
+}
+h1{
+color: blue;
+}
+div{
+
+    background-color: chocolate;
+   height: 70px;
+ 
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2cm;
+    color: chartreuse;
+}
+table{
+    border: 0.1cm solid black;
+    height: 8cm;
+    width: 10cm;
+    
+
+}
+    </style>
+   
+
+</head>
+<body align="center">
+    <form action="connect.php" method="post">
+        <p>Welcome to the MB University Web Client Portal!</p>
+      
+            <div>MBU PORTAL</div>
+        <br><br><br>
+       <table align="center">
+        
+         <td> 
+            <h1>Internet login portal</h1>
+                <label >Username:</label><br>
+                <input id="name" type="text" name="username" required><br><br>
+
+                <label >Password:</label><br>
+                <input id="psw" type="text" required name="password"><br><br>
+                <a href="">forgot password</a><br><br>
+                <input type="submit" value="Signup" name="submit" id="subuser">
+           </td>
+        
+       </table>
+   </form>
+</body>
+</html>
